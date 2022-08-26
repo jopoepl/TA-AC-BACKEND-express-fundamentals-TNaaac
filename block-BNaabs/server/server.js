@@ -7,6 +7,7 @@ app.use(logger(`dev`))
 
 
 app.use(express.static(__dirname + `/public`))
+app.use(express.json())
 
 app.use(express.urlencoded({extended: false}))
 
@@ -19,8 +20,8 @@ app.get(`/new`, (req, res) => {
 })
 
 app.post(`/new`, (req, res) => {
-    console.log(req.query)
-    res.json(req.query)
+    console.log(req.body)
+    res.send(req.body)
 })
 
 app.get(`/users/:username`, (req, res)=> {

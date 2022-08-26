@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Flexbox Exercise</title>
+
+<link rel="stylesheet" href="assets/stylesheet/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;0,800;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="head-container flexr align">
+            <div class="flexr header-location">
+                <img src="assets/location.png" alt="location">
+                <p>65/A, 17th Floor, Kings Land, New York</p>
+            </div>
+            <div class="flexr header-contact">
+                <img src="assets/email.png" alt="email">
+                <p>info@consulting.com</p>
+            </div>
+            <figure class="flexr header-social">
+                <a href="#"><img src="assets/media/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="assets/media/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="assets/media/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="assets/media/linkedin.png" alt="linkedin"></a>
+            </figure>
+        </div>
+    </header>
+    <nav>
+        <div class="flexr align nav-container">
+            <a class="logoimg" href="index.html"><img src="assets/media/logo/logo.png" alt="logo-nav"></a>            <ul class="nav-bar flexr">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+               <li><a href="cases.html">CASES</a></li> 
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <button>
+                <a href="#">CONTACT NOW</a>
+            </button>
+        </div>
+    </nav>
+    <main class="about">
+    <section class="about-cont flexc">
+        <div>
+        <h1>About</h1>
+        </div>
+    </section>
+    <section class="cont3 flexc">
+                <article class="top-cont3 flexr">
+                    <div class="img1"><img src="assets/media/team/wetrusted.jpg" alt="team3"></div>
+                    <div class="top-cont3-text flexc">
+                        <h3>We are more trusted than 5000 clients</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iusto quos laborum perferendis unde aspernatur vitae, voluptates ex, provident sunt ad ratione rerum molestias ab maiores, atque natus. Quae, harum?</p>
+                        <button><a class="btn" href="">LEARN MORE</a></button>
+                    </div>
+                </article>
+    </section>
+    <section class="cont2">
+                    <div class="flexr inner-cont2 align">
+                        <article class="box1 flexc">
+                            <img src="assets/media/team/team_1.jpg" alt="team1">
+                            <h2>Business Planning</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, nam. Distinctio voluptates eos a ullam?</p>
+                        </article>
+                        <article class="box1 flexc">
+                         <img src="assets/media/team/team_2.jpg" alt="team2">
+                         <h2>Financial Projections</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, nam. Distinctio voluptates eos a ullam?</p>
+                        </article>
+                     <article class="box2 flexc">
+                         <div class="box2-inner">
+                         <h2>What we do for you</h2>
+                         <div class="line"></div>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, nam. Distinctio voluptates eos a ullam?</p>
+                         <a href="#">View Profile &#187</a>
+                         </div>
+                     </article>
+                    </div>
+        </section>
+        <section class="testimonial-cont flexr">
+            <div class="arrow1 flexc">&#8249;</div>
+            <div class="inner-testimonial-cont align flexc">
+                <figure><img src="assets/media/testimonial/Homepage_testi.png" alt="testimonial"></figure>
+                <blockquote>You can't suceed if you just do what others do and follow the well-worn path. You need to create a new and original path for yourself.</blockquote>
+                <figure class="star"></figure>
+                <p>CLIFFORD FRAZIER - <span>Colorlib Themes</span></p>
+            </div>
+            <div class="arrow2 flexc">&#8250;</div>
+        </section>
+
+        <section class="recent-news-cont">
+            <div class="inner-recent-news-cont align flexc">
+                <h2>Our Recent News</h2>
+                <div class="recent-news flexr">
+                    <article>
+                        <img src="assets/media/recent/rcent_1.png" alt="recent1">
+                        <p>Business Planning</p>
+                        <h4>Amazing Places To Visit In Summer</h4>
+                        <span><p>Nov 30, 2020</p></span>
+                    </article>
+                    <article>
+                        <img src="assets/media/recent/rcent_2.png" alt="recent2">
+                        <p>Audit</p>
+                        <h4>Amazing Places To Visit In Summer</h4>
+                        <span><p>Nov 30, 2020</p></span>
+                    </article>
+                    <article>
+                        <img src="assets/media/recent/rcent_1.png" alt="recent1">
+                        <p>Business Planning</p>
+                        <h4>Amazing Places To Visit In Summer</h4>
+                        <span><p>Nov 30, 2020</p></span>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="call-back flexc">
+        <div class="inner-call-back align flexr">
+           <div class="text-call-back">
+               <h3>Request for Call Back</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga reiciendis voluptates vel iure! Autem quam maiores, at asperiores veniam ipsa quos quod ad dignissimos repudiandae.</p>
+           </div> 
+           <form action="#" class="flexr">
+               <input type="text" id="name" placeholder="Name">
+               <input type="number" id="phnumber" placeholder="Phone">
+               <select name="services" id="services">
+                   <option value="services">Services</option>
+                   <option value="service1">Service1</option>
+                   <option value="service2">Service2</option>
+               </select>
+               <input type="submit" name="submit" id="submit">
+           </form>
+        </div>
+    </section>
+</main>
+<footer class="flexc">
+    <div class="links align flexr">
+        <div class="about">
+            <img src="assets/media/logo/logo2_footer.png" alt="logo2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, magni dolores. Non et.</p>
+            <figure class="flexr footer-social">
+                <a href="#"><img src="assets/facebook-sq-bl.png" alt="facebook"></a>
+                <a href="#"><img src="assets/twitter-sq-bl.png" alt="twitter"></a>
+                <a href="#"><img src="assets/youtube-sq-bl.png" alt="youtube"></a>
+                <a href="#"><img src="assets/linkedin-sq-bl.png" alt="linkedin"></a>
+            </figure>
+        </div>
+        <div class="company-services flexr">
+            <div class="footer-company">
+                <h3>Company</h3>
+                <ul class="flexc">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="cases.html">Cases</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h3>Services</h3>
+                <ul class="flexc">
+                    <li><a href="#">Commercial Cleaning</a></li>
+                    <li><a href="#">Office Cleaning</a></li>
+                    <li><a href="#">Building Cleaning</a></li>
+                    <li><a href="#">Floor Cleaning</a></li>
+                    <li><a href="#">Apartment Cleaning</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="get-in-touch flexc">
+            <h3>Get In Touch</h3>
+            <ul class="flexc">
+            <li><p>152-515-6565</p></li>
+            <li><p>demomail@gmail.com</p></li>
+            <li><p>New Orleans, USA</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright align flexc">
+        <p>Copyright &copy; 2020 All Rights reserved | This template is made with <span>&#9825;</span> by <span>Colorlib</span></p>
+
+    </div>
+
+</footer>
+
+</body>
+
+</html>
